@@ -1,0 +1,87 @@
+.contact-toppage__wrapper{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: lightblue;
+    z-index: 4;
+    font-family: 'Montserrat', sans-serif;
+    
+    .contact-toppage__elements__wrapper{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+        a{
+            margin: 0 10px;
+            color: #262626;
+            
+            .contact-toppage__element{
+                margin-right: 8px;
+            }
+        }
+        
+        .contact-toppage__elements__wrapper--socialmeida{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-left: 25px;
+            height: 100%;
+            
+            a{
+                
+               .contact-toppage__element--facebook{
+                    font-size: 25px;
+                    color: #3b5998;
+                } 
+            }
+            
+            
+        }
+        
+        .contact-toppage__elements__wrapper--contact-info{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 100%;
+            padding-right: 30px;
+            
+            a{
+                
+            }
+        }  
+    }
+}
+
+@media screen and (max-width: 550px){
+    .contact-toppage__wrapper{
+        
+        .contact-toppage__elements__wrapper{
+            
+            span{
+                display: none;
+            }
+            
+            a{
+                padding: 10px 5px;
+            }
+            
+            .contact-toppage__elements__wrapper--socialmeida{
+                width: 50%;
+                justify-content: flex-start;
+                padding-left: 10px;
+            }
+            
+            .contact-toppage__elements__wrapper--contact-info{
+                width: 50%;
+                justify-content: flex-end;
+                padding-right: 15px;
+            }
+            
+        }
+    }
+}
