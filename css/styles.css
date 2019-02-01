@@ -569,7 +569,7 @@ nav {
           -webkit-box-shadow: 18px 1.5px 0 #262626, -18px 1.5px 0 #262626;
                   box-shadow: 18px 1.5px 0 #262626, -18px 1.5px 0 #262626; }
         .section-second .container__wrapper--mask-section-second .nav__box-select label.nav__box-select-1 {
-          background: #ff994d;
+          background: rgba(255, 153, 77, 0.85);
           margin-right: 10px; }
         .section-second .container__wrapper--mask-section-second .nav__box-select label.nav__box-select-2 {
           background: lightblue;
@@ -639,7 +639,7 @@ nav {
               -ms-transform: rotate(-180deg);
                   transform: rotate(-180deg); }
         .section-second .container__wrapper--mask-section-second .container__wrapper-section-second .box__section-second-1 .box__event {
-          background: #ff994d;
+          background: rgba(255, 153, 77, 0.85);
           padding: 10px; }
       .section-second .container__wrapper--mask-section-second .container__wrapper-section-second .box__section-second-2 {
         width: 100%;
