@@ -29,6 +29,7 @@
             width: 0px;
             height: 0px;
             z-index: -10;
+            opacity: 0;
         }
         
         .box-turnieje{
@@ -44,7 +45,7 @@
                     opacity: 0;
                 }
                 
-                ~ .nav__box-select .turnieje::after{
+                ~ .nav__box-select .nav__box-select-2::after{
                     opacity: 1;
                 }
                 
@@ -64,7 +65,7 @@
                     max-height: 99999px;
                 }
                
-                ~ .nav__box-select .obozy::after{
+                ~ .nav__box-select .nav__box-select-1::after{
                     opacity: 1;
                 }
                 
