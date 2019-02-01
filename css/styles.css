@@ -1549,7 +1549,7 @@ footer {
       border-radius: 8px;
       position: relative;
       overflow: hidden;
-      z-index: -2; }
+      z-index: 0; }
       .leaders__section-first .leaders__wrapper .leader::before {
         content: '';
         position: absolute;
@@ -1568,7 +1568,15 @@ footer {
         -o-object-position: center center;
            object-position: center center;
         border-radius: 50%;
-        border: 5px solid #fff; }
+        border: 5px solid #fff;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s; }
+        .leaders__section-first .leaders__wrapper .leader img:hover {
+          -webkit-transform: scale(1.1);
+              -ms-transform: scale(1.1);
+                  transform: scale(1.1);
+          border: 6px solid #fff; }
       .leaders__section-first .leaders__wrapper .leader h1 {
         font-size: 20px;
         margin-top: 10px;
