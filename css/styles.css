@@ -869,7 +869,7 @@ nav {
         .section-fourth .photo__wrapper .photo a:hover::after {
           top: 0; }
       .section-fourth .photo__wrapper .photo.section-fourth__photo-1 a::after {
-        content: '15.01.2019'; }
+        content: '02.02.2019'; }
       .section-fourth .photo__wrapper .photo.section-fourth__photo-2 a::after {
         content: '13.01.2019'; }
       .section-fourth .photo__wrapper .photo.section-fourth__photo-3 a::after {
@@ -1168,7 +1168,7 @@ footer {
         .photo-gallery__section-second .row .column .img-wrapper.img-wrapper-2::before {
           content: '+21'; }
         .photo-gallery__section-second .row .column .img-wrapper.img-wrapper-3::after {
-          content: '14.01.2019'; }
+          content: '02.02.2019'; }
         .photo-gallery__section-second .row .column .img-wrapper.img-wrapper-3::before {
           content: '+11'; }
         .photo-gallery__section-second .row .column .img-wrapper.img-wrapper-4::after {
