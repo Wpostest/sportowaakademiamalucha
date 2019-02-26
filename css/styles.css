@@ -621,7 +621,7 @@ nav {
             .section-second .container__wrapper--mask-section-second .container__wrapper-section-second .box__event label.box__event--label-down::after {
               display: none; }
         .section-second .container__wrapper--mask-section-second .container__wrapper-section-second .box__event p {
-          margin-bottom: 5px;
+          margin-bottom: 10px;
           color: #464747; }
       .section-second .container__wrapper--mask-section-second .container__wrapper-section-second .box__section-second-1 {
         width: 100%;
@@ -1271,8 +1271,8 @@ footer {
       width: 100%;
       height: 400px;
       margin-bottom: -4px;
-      -o-object-fit: cover;
-         object-fit: cover;
+      -o-object-fit: contain;
+         object-fit: contain;
       -o-object-position: center center;
          object-position: center center; }
   .post__section-second .post__section-second--content {
