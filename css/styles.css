@@ -594,7 +594,13 @@ nav {
           font-weight: bold;
           margin-bottom: 5px;
           cursor: pointer;
-          position: relative; }
+          position: relative;
+          display: block;
+          width: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+             text-overflow: ellipsis; }
           .section-second .container__wrapper--mask-section-second .container__wrapper-section-second .box__event label::after {
             content: '\f0d7';
             font-family: "Font Awesome 5 Free";
@@ -1286,10 +1292,17 @@ footer {
       margin-bottom: 30px;
       margin-top: 10px;
       text-transform: uppercase;
-      white-space: nowrap; }
+      display: block;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+         text-overflow: ellipsis; }
     .post__section-second .post__section-second--content p {
       text-align: justify;
       margin-bottom: 10px; }
+      .post__section-second .post__section-second--content p b {
+        font-weight: bold; }
   .post__section-second .post-buttons-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1324,6 +1337,12 @@ footer {
       .post__section-second .post-buttons-wrapper .post-button.post-button__posts {
         background: #ff994d;
         margin-right: 20px; }
+
+@media screen and (max-width: 500px) {
+  .post__section-second .post__section-second--content h2 {
+    font-size: 18px; }
+  .post__section-second .post__section-second--content p {
+    font-size: 15px; } }
 
 .posts__section-first {
   width: 100%;
@@ -1436,6 +1455,9 @@ footer {
           color: #262626;
           width: 100%;
           height: 30px;
+          display: block;
+          width: 100%;
+          white-space: nowrap;
           overflow: hidden;
           -o-text-overflow: ellipsis;
              text-overflow: ellipsis; }
