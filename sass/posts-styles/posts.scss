@@ -55,12 +55,20 @@
             margin-bottom: 30px;
             margin-top: 10px;
             text-transform: uppercase;
-            white-space: nowrap;
+            display: block;
+            width: 100%;
+            white-space: nowrap;  
+            overflow: hidden;
+            text-overflow: ellipsis; 
         }
         
         p{
             text-align: justify;
             margin-bottom: 10px;
+
+            b{
+                font-weight: bold;
+            }
         }
     }
     
@@ -89,10 +97,23 @@
                 margin-right: 20px;
             }
         }
+    } 
+}
+
+@media screen and (max-width: 500px){
+    .post__section-second{
+
+        .post__section-second--content{
+
+            h2{
+                font-size: 18px;
+            }
+
+            p{
+                font-size: 15px;
+            }
+        }
     }
-    
-    
-    
 }
 
 
@@ -216,11 +237,13 @@
                     font-size: 18px;
                     font-weight: bold;
                     color: #262626;
-                    //white-space: nowrap;
                     width: 100%;
                     height: 30px;
+                    display: block;
+                    width: 100%;
+                    white-space: nowrap;  
                     overflow: hidden;
-                    text-overflow: ellipsis;
+                    text-overflow: ellipsis; 
                     
                 }
                 

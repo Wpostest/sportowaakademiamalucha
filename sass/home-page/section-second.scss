@@ -155,6 +155,11 @@
                     margin-bottom: 5px;
                     cursor: pointer;
                     position: relative;
+                    display: block;
+                    width: 100%;
+                    white-space: nowrap;  
+                    overflow: hidden;
+                    text-overflow: ellipsis; 
                     
                     &::after{
                         content: '\f0d7';
