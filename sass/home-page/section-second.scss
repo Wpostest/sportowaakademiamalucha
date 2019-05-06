@@ -139,7 +139,7 @@
             .box__event{
                 margin-top: 10px;
                 width: 100%;
-                max-height: 78px;
+                max-height: 82px;
                 overflow: hidden;
                 margin-bottom: 20px;
                 
@@ -208,15 +208,27 @@
                         ~ .box-1-event-first{ max-height: 9999px; }
                     
                         ~ .box-1-event-first label::after { transform: rotate(-180deg); }
+
+                        ~ .box__event p { display: block; max-height: unset; overflow: none;}
                 }
 
                 .box__event{
                     background: rgba(#ff994d, .85);
                     padding: 10px;
+                    padding-bottom: 0;
+
+                    p:nth-child(3){
+                        max-height: 20px;
+                        overflow: hidden;
+                    }
+
+                    p:not(:nth-child(3)){
+                        display: none;
+                    }
                 }
-                
-                
+                  
             }
+
             .box__section-second-2{
                 width: 100%;
                 position: relative;
@@ -230,12 +242,23 @@
                     ~ .box-2-event-first{ max-height: 9999px; }
                     
                     ~ .box-2-event-first label::after { transform: rotate(-180deg); }
+
+                    ~ .box__event p { display: block; max-height: unset; overflow: none;}
                     
                 }
 
                 .box__event{
                     background: lightblue;
                     padding: 10px;
+
+                    p:nth-child(3){
+                        max-height: 20px;
+                        overflow: hidden;
+                    }
+
+                    p:not(:nth-child(3)){
+                        display: none;
+                    }
                 }
             }    
 
